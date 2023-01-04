@@ -1017,7 +1017,7 @@ KeyboardStyle {
         color: "#FFF"
     }
 
-    fullScreenInputMargins: Math.round(15 * scaleHint)
+    fullScreenInputMargins: Math.round(95 * scaleHint)
 
     fullScreenInputPadding: Math.round(30 * scaleHint)
 
@@ -1027,5 +1027,5 @@ KeyboardStyle {
         visible: parent.blinkStatus
     }
 
-    fullScreenInputFont.pixelSize: 58 * scaleHint
+    fullScreenInputFont.pixelSize: 80 * scaleHint
 }
